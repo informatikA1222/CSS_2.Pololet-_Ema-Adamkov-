@@ -1,0 +1,28 @@
+body{
+    background-color:rgb(218, 107, 125);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: rgb(90, 54, 66);
+    text-align: center;
+}
+p{
+    color: rgb(4, 89, 4);
+    font: size 18px; ;
+}
+div{
+    background-color: rgb(236, 221, 137);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: purple;
+}
+.info{
+    color: plum
+}
+#warning{
+    color: brown;
+}
+p:last-child{
+    color: black;
+}

@@ -1,0 +1,88 @@
+HTML{
+    font-size: 12pt;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.sn-pro-uniquifier{
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+}
+.wrap{
+    padding: 16px;
+}
+h2, p, div{
+    background: green;
+}
+a, button, span, strong{
+    background: rgb(177, 166, 166);
+}
+.d1, .s1{
+    display: inline-block;
+    border: 2px solid rebeccapurple;
+    margin: 12px;
+    padding: 10px;
+    background: pink;
+    width: 180px;
+    height: 80px;
+    margin-top: 80px;
+}
+a, button, span, strong{
+    background: red;
+}
+.radius-box{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    color: blueviolet;
+    display: grid;
+    place-items: center;
+    border-radius: 15%;
+}
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.justify{
+    text-align: justify;
+}
+.link{
+     text-decoration: none;
+     background: none;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1,5rem;
+}
+p{
+    font-size: 1rem;
+}
+.center-box{
+    width: 50%;
+    height: 300px;
+    background: blueviolet;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+.center-text{
+    background-color: yellow;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
