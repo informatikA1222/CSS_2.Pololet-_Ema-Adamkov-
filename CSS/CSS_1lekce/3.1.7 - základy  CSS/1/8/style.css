@@ -38,6 +38,7 @@ h1{
     display: grid;
     place-items: center;
     margin-bottom: 16px;
+    margin-top: 16px;
 }
 .linear{
     background-image: linear-gradient(to right, white, green);
