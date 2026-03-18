@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    background-color: rgb(236, 221, 137);
+    color: rgb(192, 106, 120);
+    padding: 105px;
+    margin: 150px;
+    width: 500px;
+}
+body{
+    background-color: black;
+}
