@@ -1,0 +1,32 @@
+body{
+    margin-top: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: steelblue;
+}
+.demo-wrap{
+    padding: 16px;
+}
+.example-1{
+    height: 400px;
+    display: grid;
+}
+.bublina{
+    padding: 16px;
+}
+.dva{
+    width: 700px;
+    height: 150px;
+    background: green;
+    border: 5px solid ;
+    border-color: aliceblue;
+    border-radius: 20px;
+}
+.tři{
+    width: 700px;
+    height: 150px;
+    background: green;
+    border: 5px solid ;
+    border-color: aliceblue;
+    border-radius: 20px;
+}
