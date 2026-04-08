@@ -1,0 +1,43 @@
+.sekce{
+    background: rgb(102, 131, 102);
+    margin: 50px;
+    padding: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(199, 187, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.kolo{
+    background: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.jméno{
+    font-size: x-large;
+}
+.úvod{
+    
+}
+.text{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.bubliny{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -5,7 +5,13 @@ body{
     background-color: steelblue;
 }
 .demo-wrap{
-    padding: 16px;
+    background: green;
+    border: 5px solid ;
+    border-color: aliceblue;
+    border-radius: 20px;
+    width: 700px;
+    height: 150px;
+    text-align: center;
 }
 .example-1{
     height: 400px;
