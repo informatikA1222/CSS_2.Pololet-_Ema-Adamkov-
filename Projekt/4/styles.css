@@ -29,7 +29,7 @@ body{
     font-size: x-large;
 }
 .úvod{
-    
+    margin-bottom: 20px;
 }
 .text{
     margin-left: 70px;
@@ -41,6 +41,9 @@ body{
     gap: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.text{
+    text-align: center;
 }
 .bubliny{
     background-color: white;
