@@ -5,6 +5,7 @@
     display: grid;
     place-items: center;
     border-radius: 20px;
+    width: 500px;
 }
 body{
     margin: 0;
@@ -34,10 +35,27 @@ body{
     margin-left: 70px;
     margin-right: 70px;
 }
-.bubliny{
+.skills{
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.bubliny{
+    background-color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+.kontakt{
+    background-color: rgb(173, 157, 157);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600px;
+    cursor: pointer;
 }
