@@ -1,0 +1,93 @@
+input[type="checkbox"] :checked + span{
+    text-decoration: line-through;
+    color: green;
+}
+li:first-child{
+    border: 2px solid blue;
+}
+li:last-child{
+    border: 2px solid blue;
+}
+li:nth-child(3){
+    background-color: rgb(161, 161, 189);
+}
+li:nth-child(even){
+    background-color: aqua;
+}
+.btn-demo{
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 12px 20px;
+    background-color: lightblue;
+    color: purple;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background-color 2s ease-out,
+                 transform 250ms ease
+}
+
+.btn-demo:hover{
+    background-color: beige;
+    transform: translateY(-15px);
+    box-shadow: 0 10px 100px
+}
+.mini-karta{
+    border: 5px solid white;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.06); 
+
+    transition: transform 300ms ease-in-out,
+                border-color 1s ease-in-out,
+                box-shadow 300ms ease-in-out;
+}
+.mini-karta:hover{
+    border-color: rgb(143, 186, 226);
+    transform: translateY(-20px);
+    box-shadow: 0 14px 28px rgba(0,0,0,.12);
+}
+.badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: tomato;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.hledacek{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 50px;
+    width: 400px;
+    height: 5px;
+}
+.hledacek input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+
+}
+.hledacek .vyhledávání{
+    background: none;
+    border: none;
+    display: flex;
+    gap: 50px;
+}
+.lišta{
+    margin-left: 100px;
+    display: flex;
+    gap: 10px;
+    
+}

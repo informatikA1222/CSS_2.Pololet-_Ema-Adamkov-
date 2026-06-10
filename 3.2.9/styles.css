@@ -1,0 +1,57 @@
+.lišta{
+    justify-content: center;
+    gap: 50px;
+    margin-top: 25px;
+    padding: 20px;
+    padding: 0px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+}
+.lišta a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3 ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body{
+    background-color: rgb(97, 80, 80);
+}
+.dom{
+    color: rgb(27, 25, 25);
+    font-weight: bold;
+}
+.lišta a:hover{
+    color: rgb(78, 151, 45);
+}
+.slogan{
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.zdarma{
+    border: 2px solid rgb(12, 71, 1);
+    border-radius: 30px;
+    padding: 12px 20px;
+    background-color: green;
+    color: rgb(1, 46, 3);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+    transition: background-color 300ms ease-out;
+
+}
+.zdarma:hover{
+    background-color: beige;
+    box-shadow: 0 10px 10px
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
